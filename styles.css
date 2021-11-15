@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background: #fdf1ec;
+    height: 100vh;
+}
+
+#card{
+    max-width: 600px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card, img, #cardinfo{
+    height: 400px;
+}
+
+#sub{
+    font-family: 'Raleway', sans-serif;
+}
+
+#image{
+    float: left;
+}
+
+img{
+    width: 300px;
+    border-radius: 20px 0 0 20px;
+}
+
+#cardinfo{
+    width: 300px;
+    background: ghostwhite;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0;
+    float: right;
+}
+
+#description{
+    padding: 20px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+#cost{
+    font-size: x-large;
+    font-family: 'Suranna', serif;
+}
+
+button{
+    background: aquamarine;
+    color: white;
+    border: 1px solid rgb(218, 218, 218);
+    width: 100px;
+    border-radius: 60px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: 'Bentham', serif;
+}
